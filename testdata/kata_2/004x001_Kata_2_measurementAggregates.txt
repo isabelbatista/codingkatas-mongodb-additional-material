@@ -1,0 +1,23 @@
+db.zipcodes.aggregate( { $group :
+                         { _id : { state : "$state", city : "$city" },
+                           pop : { $sum : "$pop" } } },
+                       { $group :
+                       { _id : "$_id.state",
+                         avgCityPop : { $avg : "$pop" } } } )
+                         
+                         
+db.measurement.aggregate( { $group: { _id: { RoboFlyID : "$RoboFlyID"}, Humidity : { $sum: "$Humidity" }} }, { $group : { _id : "$_id.RoboFlyID", avgHumidity: { $avg : "$Humidity" }}})
+				
+db.zipcodes.aggregate( { $group :
+                         { _id : "$state",
+                           totalPop : { $sum : "$pop" } } },
+                       { $match : {totalPop : { $gte : 10*1000*1000 } } } )
+                       
+                       
+db.measurement.aggregate( { $group:
+			{ _id: "$RoboFlyID",
+			
+			totalHumidity : { $sum: "$Humidity"}}})
+			
+						
+db.measurement.aggregate( { $group: { _id: "$RoboFlyID", totalHumidity : { $sum: "$Humidity (in percent)"}}})

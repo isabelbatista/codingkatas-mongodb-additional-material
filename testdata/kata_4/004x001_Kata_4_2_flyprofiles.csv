@@ -1,0 +1,5 @@
+_id, Type, Size (in cm), Max_OperatingTime (in min), Max_FlyingSpeed (in meter per min), State
+RoboFly_ID_Fly, Fly, 2, 60, 20
+RoboFly_ID_DragonFly, DragonFly, 5, 25, 10
+RoboFly_ID_Moskito, Moskito, 2, 120, 20
+RoboFly_ID_Copepod, Copepod, 8, 90, 1

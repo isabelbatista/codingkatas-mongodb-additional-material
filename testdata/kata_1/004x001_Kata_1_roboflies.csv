@@ -1,0 +1,4 @@
+_id, Name, ConstructionYear, Size (in cm), Max_OperatingTime (in min), Max_FlyingSpeed (in meter per min), State
+RoboFly_ID_1, Calliphora, 2014, 2, 60, 20, OK
+RoboFly_ID_2, Lucilia, 2014, 2, 60, 20, OK
+RoboFly_ID_3, Onesia, 2014, 2, 60, 20, OK

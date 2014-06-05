@@ -1,0 +1,2 @@
+C:\Program Files\mongodb\bin>mongoimport -d mobilerobotics -c measurement --type csv --file E:\Stories\STORIES\004_27_Katas\004_Technologien
+\004x001_MongoDB\004x001_Katas\004x001_Daten_Sheets\004x001_Kata_2_measurement.csv --headerline

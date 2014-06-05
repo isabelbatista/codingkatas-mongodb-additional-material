@@ -1,0 +1,7 @@
+_id, Name, Type, ConstructionYear, Size (in cm), Max_OperatingTime (in min), Max_FlyingSpeed (in meter per min), State
+RoboFly_ID_4, Ischnura, DragonFly, 2014, 5, 25, 10, OK
+RoboFly_ID_5, Calopteryx, DragonFly, 2014, 5, 25, 10, OK
+RoboFly_ID_6, Dahliana, Moskito, 2014, 2, 120, 20, OK
+RoboFly_ID_7, Finlaya, Moskito, 2014, 2, 120, 20, OK
+RoboFly_ID_8, Mormon, Copepod, 2014, 8, 90, 1, OK
+RoboFly_ID_9, Harpa, Copepod, 2014, 8, 90, 1, OK
