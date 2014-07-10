@@ -1,0 +1,8 @@
+_id,charge_start,charge_stop,energy_units
+RoboFly_ID_1,12:31:32,12:40:09,3
+RoboFly_ID_2,12:32:00,12:42:01,4
+RoboMoskito_ID_1,12:10:54,12:12:34,1
+RoboDragonFly_ID_1,12:07:00,12:24:11,6
+RoboFly_ID_4,12:28:13,12:45:10,2
+RoboDragonFly_ID_2,12:05:33,12:45:12,8
+RoboMoskito_ID_2,12:14:58,12:20:35,2
